@@ -25,6 +25,7 @@ atencion1.siguiente = atencion2;
 atencion2.siguiente = atencion3;
 atencion3.siguiente = null;
 
+
 const cabeza = atencion1;
 let actual = cabeza;
 
@@ -40,4 +41,4 @@ while (actual !== null) {
   acumulador += actual.dato.costo;
   actual = actual.siguiente;
 }
-console.log('Costo total: ', acumulador);
+console.log("Costo total: ", acumulador);
